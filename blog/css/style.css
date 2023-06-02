@@ -58,25 +58,25 @@
 }
 @font-face {
     font-family: 'roboto';
-    src: url('/fonts/serif/robotoslab-regular.ttf') format('truetype');
+    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'rozhaone';
-    src: url('/fonts/serif/rozhaone-regular.ttf') format('truetype');
+    src: url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'josefinslab';
-    src: url('/fonts/serif/josefinslab-regular.ttf') format('truetype');
+    src: url('../fonts/serif/josefinslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'lato';
-    src: url('/fonts/sans-serif/lato-regular.ttf') format('truetype');
+    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -114,10 +114,10 @@ button {
     font-family: ultra, Georgia, serif;
     border: 1px solid black;
     padding: 0.5rem 1.5rem;
-    color: #F2E2CE;
     border-radius: 0.3rem;
-    background-color: #324033;
     box-shadow: 5px 5px 3px -1px #142620;
+    color: #F2E2CE;
+    background-color: #324033;
 }
 
 .highlight {
@@ -268,14 +268,14 @@ a:focus, a:hover {
     color: #324033;
 }
 
-button:focus, button:active {
-    color: #8C503A;
+button:focus, button:hover {
+    color: #F2E2CE;
     background-color: #324033;
 }
 
-button:hover {
-    color: #F2E2CE;
-    background-color: #8C503A;
+button:active {
+    color: #324033;
+    background-color: #A67B56;
 }
 
 footer {
