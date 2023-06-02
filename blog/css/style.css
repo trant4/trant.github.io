@@ -58,25 +58,25 @@
 }
 @font-face {
     font-family: 'roboto';
-    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+    src: url('/fonts/serif/robotoslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'rozhaone';
-    src: url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
+    src: url('/fonts/serif/rozhaone-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'josefinslab';
-    src: url('../fonts/serif/josefinslab-regular.ttf') format('truetype');
+    src: url('/fonts/serif/josefinslab-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'lato';
-    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
+    src: url('/fonts/sans-serif/lato-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -88,7 +88,7 @@ p {
     font-family: roboto, Arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: lato, Helvetica, sans-serif;
     letter-spacing: 0.0325rem;
 }
@@ -99,6 +99,10 @@ h1 {
     transform: rotate(-10deg);
     text-shadow: 3px 2px #142620;
     text-align: center;
+}
+
+h2 {
+    margin-bottom: 0rem;
 }
 
 .subsection {
@@ -263,7 +267,7 @@ a:focus, a:hover {
     color: #324033;
 }
 
-button:active {
+button:focus, button:active {
     color: #8C503A;
     background-color: #324033;
 }
@@ -271,4 +275,10 @@ button:active {
 button:hover {
     color: #F2E2CE;
     background-color: #8C503A;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px solid #142620;
+    padding-top: 0rem;
 }
